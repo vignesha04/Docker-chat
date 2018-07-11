@@ -24,4 +24,4 @@ spec:
       src: ./server/
       ports:
        - 8000
-      public: false
+      public: true
