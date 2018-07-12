@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import openSocket from 'socket.io-client';
 import MessageBox from './components/message_box';
-const  socket = openSocket('http://localhost:8000');
+const  socket = openSocket(":8000");
 
 
 
@@ -28,7 +28,7 @@ class App extends Component {
       this.setState({messages:this.state.messages});
     });
     socket.on('user joined', (data) => {
-      
+
       this.state.messages.push(data);
       this.setState({messages:this.state.messages});
     });

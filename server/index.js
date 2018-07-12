@@ -4,8 +4,10 @@ var app = express();
 var path = require('path');
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
+// var redis = require('socket.io-redis');
 var port = process.env.PORT || 8000;
-
+var serverName = process.env.NAME || 'Unknown';
+// io.adapter(redis({ host: 'redis', port: 6379 }));
 server.listen(port, () => {
   console.log('Server listening at port %d', port);
 });
