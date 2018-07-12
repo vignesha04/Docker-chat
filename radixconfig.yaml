@@ -20,7 +20,7 @@ spec:
       ports:
        - 80
       public: true
-    - name: server
+    - name: socket-server
       src: ./server/
       ports:
        - 8000

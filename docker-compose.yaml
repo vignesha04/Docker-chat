@@ -9,8 +9,8 @@ services:
     ports:
       - "80:80"
     links:
-      - server
-  server:
+      - socket-server
+  socket-server:
     build:
       context:  ./server/
       dockerfile: Dockerfile
