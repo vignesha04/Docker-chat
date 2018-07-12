@@ -15,5 +15,5 @@ RUN npm run build
 FROM nginx:1.13.9-alpine
 COPY --from=builder /usr/src/client/build /usr/share/nginx/html
 COPY --from=builder /usr/src/client/nginx_chat.conf /etc/nginx/sites-enabled/nginx_chat.conf
-EXPOSE 80
+EXPOSE 80 8000
 CMD ["nginx", "-g", "daemon off;"]
