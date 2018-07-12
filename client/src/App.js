@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import openSocket from 'socket.io-client';
 import MessageBox from './components/message_box';
-const  socket = openSocket(location.protocol+'//'+location.hostname+":8000");
+const  socket = openSocket(window.location.protocol+'//'+window.location.hostname+":8000");
 
 
 
