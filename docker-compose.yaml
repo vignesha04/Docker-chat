@@ -6,10 +6,10 @@ services:
       dockerfile: Dockerfile
     expose:
       - "80"
-      - "8000"
+      
     ports:
       - "80:80"
-      - "8000:8000"
+
     links:
       - socket-server
   socket-server:
