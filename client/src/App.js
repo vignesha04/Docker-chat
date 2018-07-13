@@ -107,7 +107,7 @@ class App extends Component {
           </li>
           <li className={"login page "+ (this.state.currentPage == 'login' ? 'visible' : 'invisible')}>
             <div className="form">
-              <h3 className="title">What's your nickname? This is the timer value: {this.state.timestamp}</h3>
+              <h3 className="title">What's your nickname?</h3>
 
               <form onSubmit={this.onFormSubmit}>
               <input
