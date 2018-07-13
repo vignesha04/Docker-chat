@@ -19,10 +19,9 @@ spec:
       src: ./client/
       ports:
        - 80
-       - 8000
       public: true
     - name: socket-server
       src: ./server/
       ports:
        - 8000
-      public: true
+      public: false
