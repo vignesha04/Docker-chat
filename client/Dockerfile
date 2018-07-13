@@ -4,7 +4,7 @@ RUN mkdir -p /usr/src/client
 WORKDIR /usr/src/client
 ENV PATH /usr/src/client/node_modules/.bin:$PATH
 COPY package.json /usr/src/client/package.json
-COPY nginx_chat.conf /usr/src/client/default.conf
+COPY default.conf /usr/src/client/default.conf
 RUN npm install --silent
 RUN npm install react-scripts@1.1.1 -g --silent
 COPY . /usr/src/client
