@@ -4,7 +4,7 @@ Divide the socket.io sample app into react.js and node.js.
 
 ## Getting Started
 
-App with multiple container. Reverse proxy.
+App with multiple containers. Reverse proxy.
 ![Screen Shopt](images/reverse-proxy.png?raw=true "Screen Shot")
 
 There are two containers.
@@ -73,4 +73,4 @@ Please, follow the steps in the Omnia Radix wiki page.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
