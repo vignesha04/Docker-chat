@@ -54,7 +54,7 @@ TBD
 
 ## Deployment
 
-**When you use docker-compose up, your local machine is using `docker-compose.yaml`, but the platform use the `radixconfig.yaml`. Make sure that your `radixconfig.yaml` is correct.**
+**When you use docker-compose up, your local machine is using `docker-compose.yaml`, but the platform uses the `radixconfig.yaml`. Make sure that your `radixconfig.yaml` is correct.**
 
 Please, follow the steps in the Omnia Radix wiki page.
 
