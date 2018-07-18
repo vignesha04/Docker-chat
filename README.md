@@ -7,7 +7,7 @@ Divide the socket.io sample app into react.js and node.js.
 App with multiple containers. Reverse proxy.
 ![Screen Shopt](images/reverse-proxy.png?raw=true "Screen Shot")
 
-There are two containers.
+Two containers.
   * front-end(nginx+react.js)
   * back-end(node.js)
 
@@ -31,8 +31,8 @@ docker-compose version 1.21.1, build 5a3f1a3
 ### Installing
 
 ```
-git clone https://github.com/MuchasEstrellas/radix-simple-chat.git
-cd radix-simple-chat
+git clone https://github.com/MuchasEstrellas/docker-chat.git
+cd docker-chat
 docker-compose up
 ```
 
@@ -52,11 +52,6 @@ TBD
 
 TBD
 
-## Deployment
-
-**When you use docker-compose up, your local machine is using `docker-compose.yaml`, but the platform uses the `radixconfig.yaml`. Make sure that your `radixconfig.yaml` is correct.**
-
-Please, follow the steps in the Omnia Radix wiki page.
 
 ## Built With
 
