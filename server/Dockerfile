@@ -1,4 +1,4 @@
-FROM node:8.1.0-alpine
+FROM node:13.11.0-alpine
 RUN mkdir -p /usr/src/server
 WORKDIR /usr/src/server
 ENV PATH /usr/src/server/node_modules/.bin:$PATH
