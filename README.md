@@ -31,7 +31,7 @@ docker-compose version 1.21.1, build 5a3f1a3
 ### Installing
 
 ```
-git clone https://github.com/MuchasEstrellas/docker-chat.git
+git clone https://github.com/thejungwon/docker-chat.git
 cd docker-chat
 docker-compose up
 ```
